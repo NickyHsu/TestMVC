@@ -21,8 +21,9 @@ namespace TestMVC.Controllers
                 new TestModel{Title = "標題2",Content = "2 Content22 Content22 Content22 Content22 Content22 Content22 Content22 Content22 Content22 Content22 Content22 Content22 Content22 Content22 Content22 Content22 Content2"},
                 new TestModel{Title = "標題3",Content = "3 Content33 Content33 Content33 Content33 Content33 Content33 Content33 Content33 Content33 Content33 Content33 Content33 Content33 Content33 Content33 Content33 Content3"},
                 new TestModel{Title = "標題4",Content = "4 Content44 Content44 Content44 Content44 Content44 Content44 Content44 Content44 Content44 Content44 Content44 Content44 Content44 Content44 Content44 Content44 Content4"},
-
+                
             };
+            var test = 1;
             return View(items);
         }
 
